@@ -8,7 +8,7 @@ The GitHub Repository Chat App is an interactive Streamlit application that allo
 
 - Load and interact with multiple GitHub repositories
 - Chat-based interface for asking questions about repositories
-- Utilizes Llama 2 for natural language processing
+- Utilizes Llama 3 for natural language processing
 - Efficient embedding and retrieval using ChromaDB
 - User-friendly Streamlit interface
 
@@ -17,15 +17,15 @@ The GitHub Repository Chat App is an interactive Streamlit application that allo
 Before you begin, ensure you have met the following requirements:
 
 - Python 3.8 or higher
-- Ollama installed and running with the Llama 2 13B model
+- Ollama installed and running with the Llama3 model
 - A GitHub Personal Access Token
 
 ## Installation
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/github-repo-chat-app.git
-   cd github-repo-chat-app
+   git clone https://github.com/h9-tect/Chat_With_Github.git
+   cd Chat_With_Github
    ```
 
 2. Install the required Python packages:
@@ -61,25 +61,4 @@ You can modify the following parameters in the `create_embedchain_bot` function 
 
 - `max_tokens`: Maximum number of tokens in the generated response
 - `temperature`: Controls the randomness of the output (0.0 to 1.0)
-
-## Troubleshooting
-
-- If you encounter issues with loading repositories, ensure your GitHub token has the necessary permissions.
-- Make sure Ollama is running and the Llama 2 13B model is available.
-- Check the console output for any error messages or stack traces.
-
-## Contributing
-
-Contributions to this project are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- [Streamlit](https://streamlit.io/) for the web app framework
-- [Embedchain](https://github.com/embedchain/embedchain) for the embedding and retrieval system
-- [Ollama](https://ollama.ai/) for providing easy access to Llama 2
-- [ChromaDB](https://github.com/chroma-core/chroma) for the vector database
 
