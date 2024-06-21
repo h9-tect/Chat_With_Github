@@ -22,7 +22,7 @@ def create_embedchain_bot():
             "llm": {
                 "provider": "ollama",
                 "config": {
-                    "model": "llama2:13b",
+                    "model": "llama3:instruct",
                     "max_tokens": 250,
                     "temperature": 0.5,
                     "stream": True,
