@@ -2,7 +2,7 @@
 
 ## Overview
 
-The GitHub Repository Chat App is an interactive Streamlit application that allows users to chat with GitHub repositories using natural language. Powered by Llama 2 and Ollama, this app provides an intuitive interface for querying and exploring GitHub repositories, making it easier to understand codebases and find information quickly.
+The GitHub Repository Chat App is an interactive Streamlit application that allows users to chat with GitHub repositories using natural language. Powered by Llama3 and Ollama, this app provides an intuitive interface for querying and exploring GitHub repositories, making it easier to understand codebases and find information quickly.
 
 ## Features
 
